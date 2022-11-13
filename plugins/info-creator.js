@@ -26,24 +26,24 @@ let handler = async (m, {conn}) => {
 const vcard = `BEGIN:VCARD
 VERSION:3.0
 N:;;;
-FN: ᯤ 𝙅𝙖𝙧𝙤𝙩 𝙊𝙛𝙘
+FN: ᯤ 𝙃𝙖𝙣𝙯𝙊𝙛𝙘
 item.ORG: ᴅᴇᴠᴇʟᴏᴩᴇʀ ʙᴏᴛ
-item1.TEL;waid=6285850539404:6285850539404@s.whatsapp.net
+item1.TEL;waid=6285770190255:6285770190255@s.whatsapp.net
 item1.X-ABLabel: ᴅᴇᴠᴇʟᴏᴩᴇʀ ʙᴏᴛ
-item2.EMAIL;type=INTERNET: Jarott@gmail.com
+item2.EMAIL;type=INTERNET: ranggastory94@gmail.com
 item2.X-ABLabel:📫 Gmail
-item3.ADR:;;📍 Acehnese - Indonesian;;;;
+item3.ADR:;;📍 Bekasi - Indonesian;;;;
 item3.X-ABADR:ac
 item3.X-ABLabel:📮 Location Owner
-item4.URL:https://youtube.com/channel/UCW7iXlE7TgvJMIXQck4NYBQ
+item4.URL:https://www.youtube.com/@ranggabotzofc
 item4.X-ABLabel:Youtube
-item5.URL:https://github.com/Alpiii22
+item5.URL:https://github.com/XiaomiBOT
 item5.X-ABLabel:Github
-item6.URL:https://instagram.com/jarotr_
-item6.X-ABLabel:Instagram Jarot
-item7.URL:http://Instagram.com/alpiii.rsy
-item7.X-ABLabel: Instagram Alpi
-item1.TEL;waid=6285943036511:6285850539404@s.whatsapp.net
+item6.URL:https://instagram.com/rangga_botz
+item6.X-ABLabel:Instagram Hanz
+item7.URL:http://Instagram.com/rafael_ganz_13
+item7.X-ABLabel: Instagram Rafael
+item1.TEL;waid=6285770190255:6285770190255@s.whatsapp.net
 item1.X-ABLabel: Creator Bot
 END:VCARD`
 const sentMsg  = await conn.sendMessage(
@@ -56,7 +56,7 @@ const sentMsg  = await conn.sendMessage(
     }
 )
 let jarot = 'https://telegra.ph/file/1b4913c4196e640732efa.jpg'
-await conn.send3ButtonImg(m.chat, jarot, `${ucapan()}\n\nHallo mypren, @${m.sender.split`@`[0]} 👋\nIni nomor owner botnya, jangan di spam ya\nKalau mau disave syarat nya harus pakai profile Sendiri\nKalau gak ada profile gak bakalan direspon\nJika penting langsung chat Owner\n\n⫹⫺ Date : *${week} ${date}*\n⫹⫺ Time : *${wib}*`, wm, 'Source', '.sc', 'Menu', '.menu', 'Donasi', '.donasi', sentMsg)}
+await conn.send3ButtonImg(m.chat, hanz, `${ucapan()}\n\nHallo mypren, @${m.sender.split`@`[0]} 👋\nIni nomor owner botnya, jangan di spam ya\nKalau mau disave syarat nya harus pakai profile Sendiri\nKalau gak ada profile gak bakalan direspon\nJika penting langsung chat Owner\n\n⫹⫺ Date : *${week} ${date}*\n⫹⫺ Time : *${wib}*`, wm, 'Source', '.sc', 'Menu', '.menu', 'Donasi', '.donasi', sentMsg)}
 handler.help = ['owner']
 handler.tags = ['info']
 handler.command = /^(owner|creator)$/i
